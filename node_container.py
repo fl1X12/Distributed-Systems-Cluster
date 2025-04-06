@@ -18,7 +18,6 @@ class NodeContainer:
     def __init__(self, cpu_cores, api_server_url):
         self.cpu_cores = cpu_cores
         self.api_server_url = api_server_url
-        self.identifier=None # short identifier to fetch node
         self.node_id = None
         self.docker_client = None  # Will be initialized on demand
         self.container_id = None
